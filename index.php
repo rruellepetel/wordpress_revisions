@@ -78,7 +78,7 @@
           foreach ($posts as $post) {
               setup_postdata($post); ?>
               <div class="col-md-6">
-                <h2><?php the_title() ?></h2>
+                <h2 class="text-left"><?php the_title() ?></h2>
                   <p class="text"><?php the_content() ?></p>
                     <a class="btn btn-primary" href="#">View Details</a>
                     <a class="btn btn-info" href="#">Visit Website</a>
@@ -105,7 +105,7 @@
                   <?php the_post_thumbnail('full') ?>
                </div>
                   <div class="col-md-6">
-                    <h2><?php the_title() ?></h2>
+                    <h2 class="text-left"><?php the_title() ?></h2>
                       <p class="text"><?php the_content() ?></p>
                         <a class="btn btn-primary" href="#">View Details</a>
                         <a class="btn btn-info" href="#">Visit Website</a>
@@ -125,7 +125,7 @@
                           foreach ($posts as $post) {
                               setup_postdata($post); ?>
                         <div class='col-md-6'>
-                        <h2><?php the_title() ?></h2>
+                        <h2 class="text-left"><?php the_title() ?></h2>
                         <p class="text"><?php the_content() ?></p>
                         </div>
                         <div class="col-md-6">
@@ -193,10 +193,10 @@
   <div class="download-free">
        <div class="container">
            <div class="row">
-               <div class="col-md-6 col-md-offset-3 text-center">
+               <div class="col-md-6 col-md-offset-4">
                    <h2 class="h2-free">Download Free</h2>
                    <p class="stylish"></p>
-                   <iframe src="http://www.paywithatweet.com/dlbutton03.php?id=d0d9ce11-7109-4553-81db-9a18d72936f8" class="spaced-right" name="paytweet_button" scrolling="no" frameborder="no" height="48px" width="292px"></iframe>
+                   <iframe src="http://www.paywithatweet.com/dlbutton03.php?id=d0d9ce11-7109-4553-81db-9a18d72936f8" name="paytweet_button" scrolling="no" frameborder="no" height="48px" width="292px"></iframe>
                </div>
            </div>
        </div>
