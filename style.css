@@ -183,14 +183,14 @@ h3 {
 	border-color: #48c9b0;
 }
 
-.rotate {
+.container-main img {
 	transition-duration: 0.8s;
 	transition-property: transform;
 	overflow: hidden;
 }
 
-.rotate:hover {
-	-moz-transform: rotate(360deg);
+.container-main img:hover {
+	transform: rotate(360deg);
 }
 
 .btn-primary {
