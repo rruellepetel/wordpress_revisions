@@ -360,3 +360,15 @@ button:hover {
 .container-main {
 	padding-bottom: 7em;
 }
+
+.col-md-4 {
+	padding: 5vh;
+}
+
+.tablet > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) {
+	padding: 2vh;
+}
+
+.tablet {
+	text-align: left;
+}
