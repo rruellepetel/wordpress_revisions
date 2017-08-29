@@ -1,0 +1,350 @@
+/* Theme Name: Flatfy
+Author: Romain
+Description: Theme Flatfy.
+*/
+
+* {
+	text-align: center;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: "Lato",Helvetica,Arial,sans-serif;
+	font-size: 17px;
+
+	color: #34495e;
+}
+
+header {
+  background: url(./img/intro5.jpg) center;
+  background-size: cover;
+  height: 100%;
+}
+
+.first-title {
+	position: absolute;
+	top: 20%;
+}
+
+header h1 {
+	font-family: "Arvo";
+	font-size: 80px;
+	font-weight: 300;
+	letter-spacing: 6px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+header h3 {
+	font-weight: 300;
+	font-size: 30px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-family: "Lato";
+}
+
+.font-color {
+	color: white;
+	text-align: center;
+}
+
+.header-link {
+	list-style: none;
+	margin-top: 30px;
+	margin-bottom: 15px;
+	padding-left: 0;
+	margin-left: -5px;
+}
+
+.header-link > li {
+	display: inline-block;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.arrow-direction {
+	margin: 0 48vw;
+	position: absolute;
+	bottom: 8%;
+	width: 5em;
+	height: 5em;
+	background: url('./img/circle.png');
+	background-repeat: no-repeat;
+}
+
+.btn {
+	font-size: 15px;
+	font-weight: normal;
+	line-height: 1.4;
+	border-radius: 4px;
+	padding: 10px 15px;
+}
+
+.btn:hover {
+	outline: none;
+	text-decoration: none;
+}
+
+.btn-header {
+	padding: 10px 19px;
+    font-size: 17px;
+    line-height: 1.471;
+    border-radius: 6px;
+}
+
+.btn-twitter {
+	border: 1px solid #4A90BE;
+	color: #fff;
+	background-color: #4A90BE;
+}
+
+.btn-twitter:hover {
+	border: 1px solid #4A90BE;
+	color: #4A90BE;
+	background: rgba(204,204,204,0);
+}
+
+.btn-download {
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.btn-download:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.button-header:hover {
+	border: 1px solid #4188BE;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	background-color: #4188BE;
+}
+
+.btn-police {
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 1.5px;
+}
+
+.navbar-default {
+	color: #34495e;
+}
+
+.navbar-brand {
+	color: #34495e;
+	font-family: "Arvo";
+	font-size: 24px;
+	font-weight: 400;
+	letter-spacing: 3px;
+}
+
+.first-section h2 {
+	color: inherit;
+	margin-top: 30px;
+	margin-bottom: 5px;
+	font-family: inherit;
+	font-weight: 700;
+	font-size: 63px;
+}
+
+.background-section {
+	background-color: #f8f8f8;
+	padding: 90px 0;
+}
+
+h3 {
+	margin-top: 30px;
+	font-size: 30px;
+	font-weight: 700;
+	line-height: 1.1;
+}
+
+.stylish {
+	font-size: 1em;
+	font-weight: 300;
+    margin-top: 2em;
+	margin-bottom: 30px;
+}
+
+.btn-primary:hover {
+	background-color: #1abc9c;
+	border: none;
+	color: #ffffff;
+	background-color: #48c9b0;
+	border-color: #48c9b0;
+}
+
+.rotate {
+	transition-duration: 0.8s;
+	transition-property: transform;
+	overflow: hidden;
+}
+
+.rotate:hover {
+	-moz-transform: rotate(360deg);
+}
+
+.btn-primary {
+	color: #ffffff;
+	background-color: #1abc9c;
+	border: none;
+}
+
+.btn-info {
+	color: #ffffff;
+	background-color: #3498db;
+	border: none;
+}
+
+.dog-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	line-height: 40px;
+	font-weight: 300;
+	font-size: 18px;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+.img-slide {
+	border-radius: 6px;
+}
+
+.third-section {
+	background-color: #34495e;
+	border-top: 1px solid #32465A;
+	border-bottom: 1px solid #32465A;
+	padding: 90px 0;
+}
+
+.white {
+	color: #fff;
+}
+
+.download-free {
+	padding: 100px 0;
+	color: #f8f8f8;
+	background: url(./img/banner-bg.jpg) no-repeat center;
+	background-size: cover;
+}
+
+.h2-free {
+	color: #fff;
+	font-size: 63px;
+	font-weight: 700;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+
+.footer-blue {
+	background-color: #34485D;
+	color: #fff;
+}
+
+.footer-blue a {
+	color: #fff;
+	text-decoration: underline;
+}
+
+.footer-blue a:hover {
+	text-decoration: none;
+}
+
+.footer-blue ul {
+	list-style-type: none;
+}
+
+.footer-grey {
+	background-color: #EDEFF1;
+}
+
+.social {
+	list-style-type: none;
+}
+
+.social i{
+	font-size: 2em;
+	color: #34495e;
+}
+
+.input-group-addon {
+	color: #ffffff;
+	background-color: #bdc3c7;
+	border: 1px solid #bdc3c7;
+	border-radius: 6px;
+	font-size: 15px;
+	padding: 1em;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.ipad:hover, .iphone:hover {
+    cursor: url('./img/cross.png'), url('./img/cross.png') 5 5, progress;
+}
+
+.fa-4x {
+	background-color: #f0f1ec;
+	text-align: center;
+	height: 150px;
+	width: 150px;
+    margin-right: 5em;
+    margin-top: 0.5em;
+    border-radius: 100%;
+    padding: 47px 10px;
+    transition-duration: 0.8s;
+    transition-property: transform;
+    overflow: hidden;
+}
+
+.fa-4x:hover {
+	transform: rotate(360deg);
+	transition-duration: 1s;
+	background: #1abc9c;
+}
+
+button {
+    background-color: #1abc9c;
+    padding: 1em 1em 1em;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #ffffff;
+    background-color: #48c9b0;
+    border-color: #48c9b0;
+}
+
+.form-control {
+	border: 3px solid #bdc3c7;
+}
+
+.hideme {
+	opacity: 0;
+}
+
+.font-size {
+    font-size: 4em;
+}
+
+.tablet img, .iphone img, .dog img {
+	height: 50%;
+	width: 50%;
+}
+
+.tablet, .dog {
+	background-color: #F8F8F8;
+}
+
+.skate img {
+	height: 70%;
+	width: 80%;
+}
