@@ -150,6 +150,8 @@ header h3 {
 	font-family: inherit;
 	font-weight: 700;
 	font-size: 63px;
+	padding-top: 1em;
+
 }
 
 .background-section {
@@ -169,6 +171,7 @@ h3 {
 	font-weight: 300;
     margin-top: 2em;
 	margin-bottom: 30px;
+	padding-bottom: 2em;
 }
 
 .btn-primary:hover {
@@ -337,14 +340,23 @@ button:hover {
 
 .tablet img, .iphone img, .dog img {
 	height: 50%;
-	width: 50%;
+	width: 70%;
 }
 
 .tablet, .dog {
 	background-color: #F8F8F8;
+	padding: 5em;
+}
+
+.iphone {
+	padding: 5em;
 }
 
 .skate img {
 	height: 70%;
 	width: 80%;
+}
+
+.container-main {
+	padding-bottom: 7em;
 }
