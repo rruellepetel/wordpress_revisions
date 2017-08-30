@@ -242,20 +242,20 @@
 
           <div class="col-md-5 col-md-push-1">
             <address>
-              <h3>Office Location</h3>
-                <p class="stylish">
+              <h3 class="text-left">Office Location</h3>
+                <p class="text-left">
                     The Pentagon<br>
                     Washington, DC 20301<br>
                     Phone: XXX-XXX-XXXX<br>
                     Fax: XXX-XXX-YYYY
                 </p>
             </address>
-              <h3>Social</h3>
+              <h3 class="text-left">Social</h3>
                 <li class="social">
-                  <a href="#"><i class="fa fa-facebook-square fa-size"> </i></a>
-                  <a href="#"><i class="fa  fa-twitter-square fa-size"> </i> </a>
-                  <a href="#"><i class="fa fa-google-plus-square fa-size"> </i></a>
-                  <a href="#"><i class="fa fa-flickr fa-size"> </i> </a>
+                  <a href="#"><i class="fa fa-facebook-square fa-size pull-left"> </i></a>
+                  <a href="#"><i class="fa  fa-twitter-square fa-size pull-left"> </i> </a>
+                  <a href="#"><i class="fa fa-google-plus-square fa-size pull-left"> </i></a>
+                  <a href="#"><i class="fa fa-flickr fa-size pull-left"> </i> </a>
                 </li>
             </div>
         </form>
@@ -268,20 +268,20 @@
       <div class="container">
           <div class="row">
               <div class="col-md-7">
-                  <h3>Follow Me !</h3>
-                  <p>Vuoi ricevere news su altri template?<br> Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br> Go to: <a href="#">andreagalanti.it</a><br>
+                  <h3 class="text-left">Follow Me !</h3>
+                  <p class="text-left">Vuoi ricevere news su altri template?<br> Visita Andrea Galanti.it e vedrai tutte le news riguardanti nuovi Theme!<br> Go to: <a href="#">andreagalanti.it</a><br>
                       <a href="#">Flatfy Theme</a> by <a href="#">Andrea Galanti</a> is licensed to the public under<br> the <a href="#">Creative Commons Attribution 3.0 License - NOT COMMERCIAL</a>.</p>
               </div>
               <div class="col-md-5 footer-blue">
-                  <h3>Flatfy Theme</h3>
+                  <h3 class="text-left">Flatfy Theme</h3>
                   <ul>
-                      <li>12 Column Grid Bootstrap</li>
-                      <li>Form contact</li>
-                      <li>Drag Gallery</li>
-                      <li>Full responsive</li>
-                      <li>Lorem Ipsum</li>
+                      <li class="text-left">12 Column Grid Bootstrap</li>
+                      <li class="text-left">Form contact</li>
+                      <li class="text-left">Drag Gallery</li>
+                      <li class="text-left">Full responsive</li>
+                      <li class="text-left">Lorem Ipsum</li>
                   </ul>
-                  <p>Go to: <a href="#">andreagalanti.it/flatfy</a></p>
+                  <p class="text-left">Go to: <a href="#">andreagalanti.it/flatfy</a></p>
               </div>
           </div>
       </div>

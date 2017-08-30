@@ -267,6 +267,10 @@ h3 {
 	color: #34495e;
 }
 
+.social li {
+	text-align: left;
+}
+
 .social i:hover{
 	color: #1abc9c;
 }
@@ -401,4 +405,8 @@ label {
 
 .col-md-7 a {
 	text-decoration: none;
+}
+
+.col-md-push-1 {
+	text-align: left;
 }
