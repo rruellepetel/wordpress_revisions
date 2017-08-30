@@ -102,7 +102,9 @@
                   foreach ($posts as $post) {
                       setup_postdata($post); ?>
                   <div class='col-md-6'>
-                  <?php the_post_thumbnail('full') ?>
+                    <?php
+                    echo do_shortcode("[metaslider id=78]");
+                    ?>
                </div>
                   <div class="col-md-6">
                     <h2 class="text-left"><?php the_title() ?></h2>
