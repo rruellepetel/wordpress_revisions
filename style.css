@@ -267,6 +267,10 @@ h3 {
 	color: #34495e;
 }
 
+.social i:hover{
+	color: #1abc9c;
+}
+
 .input-group-addon {
 	color: #ffffff;
 	background-color: #bdc3c7;
@@ -389,4 +393,12 @@ div.container:nth-child(3) > div:nth-child(2) > div:nth-child(3) {
 
 .credits p {
 	padding: 1em;
+}
+
+label {
+	margin-left: -29.5em;
+}
+
+.col-md-7 a {
+	text-decoration: none;
 }
